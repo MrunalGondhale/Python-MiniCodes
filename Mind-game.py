@@ -2,10 +2,10 @@ import random as r
 def midle(low, high):
   return r.randint(low,high)
 ans = input("Enter the y/Y if you would play or n/N  ")
-print("\n Guess the number")
+print("\n Guess the number Between 1 to 100")
 response= 'N'
 low = 1
-high = 10
+high = 100
 if(ans == 'Y' or ans == 'y'):
   while(response == 'N' or response == 'n'):
     mid = midle(low, high)
